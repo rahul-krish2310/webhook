@@ -8,6 +8,7 @@ agent any
             steps
             {
                 echo"Helloo"
+                echo"Hey"
             }
         }
     }
