@@ -3,9 +3,12 @@ pipeline
 agent any
     stages
     {
-      stage("Sample")
-      {
-        echo"Helloo"
-      }
+        stage("Sample")
+        {
+            steps
+            {
+                echo"Helloo"
+            }
+        }
     }
 }
